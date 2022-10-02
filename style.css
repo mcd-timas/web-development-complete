@@ -1,7 +1,7 @@
 h1 {
   font-family: sans-serif; /*This is a CSS comment.*/
   text-align: center;
-  color: rgb(220, 20, 60);
+  color: rgb(42, 47, 59);
 }
 
 p {
@@ -11,7 +11,9 @@ p {
 }
 
 #special-paragraph {
-    color: rgb(170,96,83);
+  color: rgb(170, 96, 83);
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 a {
