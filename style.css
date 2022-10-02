@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
 /*This is a CSS comment.*/
 body {
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
   background-color: rgb(233, 215, 207);
   margin: 2rem;
@@ -12,13 +13,11 @@ img {
 }
 
 h1 {
-  font-family: "Fira Sans", sans-serif;
   font-size: 1rem;
   color: rgb(42, 47, 59);
 }
 
 p {
-  font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   color: rgb(42, 47, 59);
 }
@@ -32,8 +31,12 @@ a:hover {
   text-decoration: underline;
 }
 
-#special-paragraph {
-  font-family: "Fira Sans";
+nav {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.special-paragraph {
   color: rgb(170, 96, 83);
   font-weight: 700;
   font-size: 2rem;
