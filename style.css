@@ -1,16 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Raleway&display=swap");
+
 h1 {
-  font-family: sans-serif; /*This is a CSS comment.*/
+  font-family: "Raleway", sans-serif; /*This is a CSS comment.*/
+  font-size: 1.5rem;
   text-align: center;
   color: rgb(42, 47, 59);
 }
 
 p {
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   text-align: center;
   color: rgb(42, 47, 59);
 }
 
 #special-paragraph {
+  font-family: "Fira Sans";
   color: rgb(170, 96, 83);
   font-weight: 600;
   font-size: 2rem;
