@@ -31,9 +31,18 @@ a:hover {
   text-decoration: underline;
 }
 
-nav {
+footer {
+  position: inherit;
   font-size: 0.7rem;
-  text-align: center;
+  display: flex;
+}
+
+footer a,
+p {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .special-paragraph {
