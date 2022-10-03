@@ -16,15 +16,28 @@ h1 {
   font-size: 1rem;
   color: rgb(42, 47, 59);
 }
+h2 {
+  font-size: 1.6rem;
+  color: rgb(170, 96, 83);
+  font-weight: 700;
+}
 
 p {
   font-weight: 400;
   color: rgb(42, 47, 59);
 }
 
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 a {
   color: rgb(129, 0, 26);
   text-decoration: none;
+  font-size: 1rem;
 }
 
 a:hover {
@@ -32,13 +45,11 @@ a:hover {
 }
 
 footer {
-  position: inherit;
   font-size: 0.7rem;
   display: flex;
 }
 
-footer a,
-p {
+footer p {
   margin-block-start: 1rem;
   margin-block-end: 1rem;
   margin-left: auto;
