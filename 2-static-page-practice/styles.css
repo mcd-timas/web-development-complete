@@ -35,10 +35,16 @@ article {
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-li{
-    padding-top: 10px;
-    padding-bottom: 10px;
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li:hover {
+  color: #e5ec3d;
+  font-weight: bold;
+  list-style-type: "\2B9E  ";
 }
