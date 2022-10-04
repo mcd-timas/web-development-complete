@@ -56,7 +56,7 @@ p a {
   font-weight: 800;
 }
 
-p a:hover {
+main p a:hover {
   color: #481fbb;
   background-color: #e5ec3d;
   border-radius: 6px;
@@ -78,3 +78,18 @@ button {
     color: #481fbb;
 }
 
+footer {
+    font-size: 12px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    color: #4a4458;
+}
+
+footer a{
+    color: #4a4458;
+}
+
+footer a:hover{
+    color:#613bce;
+}
