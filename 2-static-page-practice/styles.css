@@ -3,6 +3,7 @@
 body {
   background-color: #f0ecfc;
   font-family: "Nunito", sans-serif;
+  font-size: 18px;
 }
 
 header {
@@ -47,4 +48,18 @@ li:hover {
   color: #e5ec3d;
   font-weight: bold;
   list-style-type: "\2B9E  ";
+}
+
+p a {
+  color: #e5ec3d;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+p a:hover {
+  color: #481fbb;
+  background-color: #e5ec3d;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
