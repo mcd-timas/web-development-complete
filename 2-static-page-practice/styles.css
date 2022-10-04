@@ -37,3 +37,8 @@ article {
 ul {
     list-style: none;
 }
+
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
