@@ -63,3 +63,18 @@ p a:hover {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+button {
+    width: 200px;
+    display: block;
+    margin: 20px auto auto auto;
+    background-color: #ecb315;
+    border-radius: 6px;
+    border: #ecb315;
+    padding: 15px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #481fbb;
+}
+
