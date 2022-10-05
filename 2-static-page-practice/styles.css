@@ -2,24 +2,23 @@
 
 body {
   background-color: #f0ecfc;
+  color: #613bce;
   font-family: "Nunito", sans-serif;
   font-size: 18px;
 }
 
 header {
-  margin-bottom: 60px;
+  margin: 12px;
+  padding: 18px;
   text-align: center;
 }
 
 h1 {
-  font-size: 38px;
-  color: #613bce;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  font-size: 52px;
 }
 
 header img {
-  width: 250px;
+  width: 300px;
 }
 
 article {
@@ -29,7 +28,11 @@ article {
   margin: auto;
   width: 700px;
   border-radius: 8px;
-  padding: 40px 35px 20px 35px;
+  padding: 32px;
+}
+
+h2 {
+  font-size: 26px;
 }
 
 ul {
@@ -75,8 +78,8 @@ button {
   color: #481fbb;
 }
 
-button:hover{
-    box-shadow: 1px 1px rgb(119, 113, 113);
+button:hover {
+  box-shadow: 1px 2px rgb(119, 113, 113);
 }
 
 footer {
@@ -93,4 +96,8 @@ footer a {
 
 footer a:hover {
   color: #613bce;
+}
+
+#download {
+  text-decoration: none;
 }
