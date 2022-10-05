@@ -8,12 +8,11 @@ body {
 
 header {
   margin-bottom: 60px;
+  text-align: center;
 }
 
 h1 {
   font-size: 38px;
-  font-family: "Nunito", sans-serif;
-  text-align: center;
   color: #613bce;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -21,8 +20,6 @@ h1 {
 
 header img {
   width: 250px;
-  display: block;
-  margin: auto;
 }
 
 article {
@@ -65,31 +62,35 @@ main p a:hover {
 }
 
 button {
-    width: 200px;
-    display: block;
-    margin: 20px auto auto auto;
-    background-color: #ecb315;
-    border-radius: 6px;
-    border: #ecb315;
-    padding: 15px;
-    font-family: "Nunito", sans-serif;
-    font-size: 14px;
-    font-weight: 800;
-    color: #481fbb;
+  width: 200px;
+  display: block;
+  margin: 20px auto auto auto;
+  background-color: #ecb315;
+  border-radius: 6px;
+  border: #ecb315;
+  padding: 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #481fbb;
+}
+
+button:hover{
+    box-shadow: 1px 1px rgb(119, 113, 113);
 }
 
 footer {
-    font-size: 12px;
-    display: block;
-    margin: auto;
-    width: 200px;
-    color: #4a4458;
+  font-size: 12px;
+  display: block;
+  margin: auto;
+  width: 200px;
+  color: #4a4458;
 }
 
-footer a{
-    color: #4a4458;
+footer a {
+  color: #4a4458;
 }
 
-footer a:hover{
-    color:#613bce;
+footer a:hover {
+  color: #613bce;
 }
