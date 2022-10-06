@@ -1,2 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;600&display=swap");
 
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+h1 a {
+  font-family: "Pacifico", serif;
+  color: hsl(58, 74%, 63%);
+  text-decoration: none;
+  padding: 10px;
+  font-size: 50px;
+}
