@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+header {
+    display: flex;
+}
+
 h1 a {
   font-family: "Pacifico", serif;
   color: hsl(58, 74%, 63%);
@@ -12,4 +16,10 @@ h1 a {
   padding: 10px;
   font-size: 50px;
   text-shadow: 1px 1px 3px hsl(60, 5%, 26%);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
