@@ -28,13 +28,19 @@ header ul {
   display: flex;
   justify-content: space-between;
 
-  width: 10rem;
-  padding: 0px;
-  margin-right: 10px;
+  width: 12rem;
+  padding: 0rem;
+  margin-right: 2rem;
 
   list-style: none;
 }
 
 header ul li a {
   text-decoration: none;
+  color: hsl(58, 74%, 63%);
+}
+
+header ul li a:hover {
+    color: hsl(58, 72%, 56%);
+    text-shadow: 1px 1px 2px hsl(60, 5%, 26%);
 }
