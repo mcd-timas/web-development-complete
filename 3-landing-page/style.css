@@ -50,6 +50,8 @@ header ul li a:hover {
   background-image: url("images/places/ocean.jpg");
   background-position: center;
   background-size: cover;
+
+  color: white;
 }
 
 #main-box-content {
@@ -61,4 +63,39 @@ header ul li a:hover {
   text-align: center;
   padding: 50px 0px;
   margin: 0 auto;
+
+  position: relative;
+  top: 300px;
+}
+
+#main-box h2 {
+    text-transform: uppercase;
+    font-size: 48px;
+    margin: 0;
+}
+
+#main-box p {
+    text-transform: uppercase;
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+
+#main-box a {
+    text-decoration: none;
+    background-color: hsl(58, 74%, 63%);
+    border-radius: 8px;
+
+    padding: 12px 24px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+    
+
+    box-shadow: 2px 4px 8px hsl(0, 1%, 26%)
+}
+
+#main-box a:hover{
+    background-color: hsl(58, 72%, 56%);
 }
