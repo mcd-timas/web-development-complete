@@ -11,17 +11,16 @@ header {
   align-items: baseline;
 
   padding: 5px;
+  margin: 10px 20px 10px 20px;
 }
 
 h1 a {
   font-family: "Pacifico", serif;
-  font-size: 50px;
+  font-size: 80px;
 
   text-decoration: none;
   text-shadow: 1px 1px 3px hsl(60, 5%, 26%);
   color: hsl(58, 74%, 63%);
-
-  margin: 5px;
 }
 
 header ul {
@@ -29,7 +28,6 @@ header ul {
   justify-content: space-between;
 
   padding: 0rem;
-  margin-right: 2.4rem;
 
   list-style: none;
 }
@@ -45,4 +43,11 @@ header ul li a {
 header ul li a:hover {
   color: hsl(58, 72%, 56%);
   text-shadow: 1px 1px 2px hsl(60, 5%, 26%);
+}
+
+#main-box {
+  height: 800px;
+  background-image: url("images/places/ocean.jpg");
+  background-position: center;
+  background-size: cover;
 }
