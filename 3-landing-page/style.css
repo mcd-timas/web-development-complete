@@ -110,3 +110,20 @@ header ul li a:hover {
 #main-box a:hover {
   background-color: rgb(224, 218, 62);
 }
+
+#highlights {
+}
+
+#highlights h2 {
+}
+
+#highlights ul {
+}
+
+.destinations {
+}
+
+.destinations img {
+  border: 1px 1px 1px;
+  border-radius: 8px;
+}
