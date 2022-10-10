@@ -8,8 +8,10 @@ header {
 }
 
 main ul {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
+
+  
 }
 
 main li {
@@ -21,6 +23,8 @@ main li {
 
   overflow: hidden;
   object-fit: cover;
+
+  width: 500px;
 }
 
 main li img {
